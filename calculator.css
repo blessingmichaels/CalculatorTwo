@@ -32,6 +32,7 @@ body {
     color: white;
     cursor: pointer;
     margin: 10px;
+    
 }
 
 form .display {
@@ -56,11 +57,10 @@ form input.operator {
 }
 
 @media only screen and (max-width:400px) {
-    form input.operator {
+    .calculator form input {
         text-align: center;
-
-    }
-    form input {
-        text-align: center;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
     }
 }
