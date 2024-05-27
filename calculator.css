@@ -63,4 +63,8 @@ form input.operator {
         align-items: center;
         justify-content: center;
     }
+    form .display input {
+        text-align: right;
+    }
+   
 }
